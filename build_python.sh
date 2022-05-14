@@ -1,4 +1,6 @@
 #!/bin/bash
+
+rm -rf ~/build/Python-3.10.4
 mkdir -p ~/src ~/build/Python-3.10.4
 
 cd ~/src
