@@ -1,0 +1,13 @@
+version: "3.8"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - "jjpoker_vscode_home:/home/vscode"
+      - ..:/workspace/poker_server:cached
+    command: /bin/sh -c "while sleep 100000; do :; done"
+
+volumes:
+  jjpoker_vscode_home:
