@@ -11,6 +11,6 @@ tar xvf Python-3.10.4.tgz
 
 cd ~/build/Python-3.10.4
 
-~/src/Python-3.10.4/configure --perfix=$HOME/local
+~/src/Python-3.10.4/configure --prefix=$HOME/local
 
 time make
